@@ -1,6 +1,6 @@
-VERSION = "1.5.0"
-TOTAL_COMMANDS = "39"
-TOTAL_LINES = "375"
+VERSION = "2.0.0"
+TOTAL_COMMANDS = ""
+TOTAL_LINES = "566"
 
 import discord, ctypes, json, os, webbrowser, requests, datetime, urllib, time, string, random, asyncio, aiohttp
 from discord.ext import commands
@@ -8,7 +8,7 @@ from colorama import Fore, Back, Style
 from selenium import webdriver
 from pyfiglet import figlet_format
 
-TOKEN = ("ODQ1NzYzNTA2NTIzMjA5NzM4.YO8V6g.KrX-TCtJ-Ht29kOOmxZBHfqbN94")
+TOKEN = ("token here")
 PREFIX = ("k!")
 
 ascii_art = figlet_format("Kziko Self Bot")
